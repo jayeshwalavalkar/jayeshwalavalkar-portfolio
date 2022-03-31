@@ -9,32 +9,45 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  max-width: 85%;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.container-fluid {
+  padding: 0em 1em;
 }
 
 .navigation {
   background-color: var(--primary-colour);
   color: var(--white);
   border-bottom-left-radius: 1em;
+  padding: 1rem;
 }
 
 .brand {
-  padding: 1em 1em;
   font-weight: bold;
+}
+
+.brand a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .list-unordered {
   list-style: none;
+  margin: 0px;
 }
 
 .list-inline li {
   display: inline;
-  padding: 0em 0.5em;
+  padding: 0em 1.5em;
 }
 
 .navigation ul {
   text-align: right;
-  padding-bottom: 2em;
-  padding-right: 2em;
+  padding-right: 1em;
+  margin: 1em 1em;
 }
 
 .active {
