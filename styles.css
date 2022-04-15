@@ -15,9 +15,9 @@ body {
 }
 
 .container {
-    margin: auto;
-    max-width: 600px;
-  }
+  margin: auto;
+  max-width: 600px;
+}
 
 .container-fluid {
   padding: 0em 1em;
@@ -64,20 +64,31 @@ body {
 }
 
 .hero img {
-    max-width: 80%;
-    width: 550px;
-    height: auto;
-    margin: auto;
-    display: block;
+  max-width: 80%;
+  width: 550px;
+  height: auto;
+  margin: auto;
+  display: block;
 }
 
 .hero-heading {
-    text-align: center;
-    color: var(--grey);
+  text-align: center;
+  color: var(--grey);
 }
 
 .hero-heading-span {
-    color: var(--primary-colour);
+  color: var(--primary-colour);
+}
+
+.section-normal {
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 1rem;
+}
+
+.section-ow {
+  background-color: var(--off-white);
+  text-align: center;
 }
 
 @media (max-width: 900px) {
