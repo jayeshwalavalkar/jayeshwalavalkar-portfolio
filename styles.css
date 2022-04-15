@@ -59,7 +59,6 @@ body {
 }
 
 .hero {
-  color: var(--grey);
   padding: 2rem;
   padding-top: 5rem;
 }
@@ -67,8 +66,18 @@ body {
 .hero img {
     max-width: 80%;
     width: 550px;
+    height: auto;
     margin: auto;
     display: block;
+}
+
+.hero-heading {
+    text-align: center;
+    color: var(--grey);
+}
+
+.hero-heading-span {
+    color: var(--primary-colour);
 }
 
 @media (max-width: 900px) {
