@@ -81,6 +81,7 @@ body {
 }
 
 .section-normal {
+  text-align: center;
   padding: 2rem;
   margin: 2rem 0;
   border-radius: 1rem;
@@ -88,8 +89,15 @@ body {
 
 .section-ow {
   background-color: var(--off-white);
-  text-align: center;
 }
+
+.primary-link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    background-color: var(--primary-colour);
+    color: var(--white);
+  }
 
 @media (max-width: 900px) {
   body {
